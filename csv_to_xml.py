@@ -1,4 +1,4 @@
-import csv
+import sys, csv
 from xml.etree import ElementTree
 
 def main(file_path):

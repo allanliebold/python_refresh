@@ -8,3 +8,5 @@ seven_day = soup.find(id="seven-day-forecast")
 forecast_items = seven_day.find_all(class_="tombstone-container")
 
 period_tags = seven_day.select(".tombstone-container .period-name")
+periods = [pt.get_text() for pt in period_tags]
+

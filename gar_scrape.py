@@ -6,6 +6,8 @@ page = requests.get("http://www.gartran.com/main.php/current_loads?table_view=1&
 soup = BeautifulSoup(page.content, 'html.parser')
 
 truck_types = []
+order_numbers = []
+del_dates = []
 origin_states = []
 origin_cities = []
 dest_states = []

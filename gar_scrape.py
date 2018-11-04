@@ -13,3 +13,23 @@ origin_cities = []
 dest_states = []
 dest_cities = []
 miles = []
+
+for i in range(1, len(table)):
+    if('V' in truck_types[i-1]):
+        origin_states.append(table[i].select('td')[2].get_text())
+
+for i in range(1, len(table)):
+    if('V' in truck_types[i-1]):
+        origin_cities.append(table[i].select('td')[3].get_text())
+
+for i in range(1, len(table)):
+    if('V' in truck_types[i-1]):
+        dest_states.append(table[i].select('td')[4].get_text())
+
+for i in range(1, len(table)):
+    if('V' in truck_types[i-1]):
+        dest_cities.append(table[i].select('td')[5].get_text())
+
+for i in range(1, len(table)):
+    if('V' in truck_types[i-1]):
+        miles.append(table[i].select('td')[6].get_text())

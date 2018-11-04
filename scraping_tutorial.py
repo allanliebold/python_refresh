@@ -7,4 +7,4 @@ soup = BeautifulSoup(page.content, "html.parser")
 seven_day = soup.find(id="seven-day-forecast")
 forecast_items = seven_day.find_all(class_="tombstone-container")
 
-print(forecast_items)
+period_tags = seven_day.select(".tombstone-container .period-name")

@@ -10,3 +10,5 @@ forecast_items = seven_day.find_all(class_="tombstone-container")
 period_tags = seven_day.select(".tombstone-container .period-name")
 periods = [pt.get_text() for pt in period_tags]
 
+short_descs = [sd.get_text() for sd in seven_day.select(".tombstone-container .short-desc")]
+

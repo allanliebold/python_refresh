@@ -6,7 +6,6 @@ from bs4 import BeautifulSoup
 page = requests.get("http://www.gartran.com/main.php/current_loads?table_view=1&page_order=id&page_dir=xxx&page_num=1")
 soup = BeautifulSoup(page.content, 'html.parser')
 table = soup.find_all('tr')
-test_date = datetime.datetime.strptime("01/01/2019", "%m/%d/%Y")
 tomorrow = datetime.date.today() + datetime.timedelta(days=1)
 
 all_trucks = []

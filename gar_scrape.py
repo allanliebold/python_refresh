@@ -26,7 +26,6 @@ def write_csv():
                                                       'destination_city', 'destination_state', 'destination_zip',
                                                       'truck_type', 'distance', 'pick_date', 'pick_time', 'drop_date',
                                                       'drop_time', 'stops', 'shipper'])
-        
         writer.writeheader()
         for i in range(0, len(order_numbers)):
             writer.writerow({'reference_id':order_numbers[i], 'origin_city':origin_cities[i], 'origin_state':origin_states[i],
@@ -53,7 +52,6 @@ if __name__ == "__main__":
     dest_cities = []
     miles = []
 
-    print("Collecting data...")
     get_data()
     print("Done.")
     write_csv()

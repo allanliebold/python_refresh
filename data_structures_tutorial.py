@@ -12,3 +12,6 @@ def sumToN(n):
   for x in range(0, n+1):
     sum += x
   return sum
+
+def sumToN2(n):
+  return (n*(n+1))/2

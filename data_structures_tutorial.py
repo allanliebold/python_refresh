@@ -6,3 +6,9 @@ s.upper()
 # To see a list of methods available, press tab after the . 
 
 #Big O Notation
+
+def sumToN(n):
+  sum = 0
+  for x in range(0, n+1):
+    sum += x
+  return sum

@@ -11,7 +11,7 @@ def sumToN(n):
   Take an input of n and return the sum of the numbers from 0 to n
   '''
   sum = 0
-  for x in range(0, n+1):
+  for x in range(n+1):
     sum += x
   return sum
 

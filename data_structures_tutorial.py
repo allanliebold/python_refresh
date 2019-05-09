@@ -7,6 +7,9 @@ s.upper()
 
 #Big O Notation
 def sumToN(n):
+  '''
+  Take an input of n and return the sum of the numbers from 0 to n
+  '''
   sum = 0
   for x in range(0, n+1):
     sum += x
@@ -14,3 +17,4 @@ def sumToN(n):
 
 def sumToN2(n):
   return (n*(n+1))/2
+

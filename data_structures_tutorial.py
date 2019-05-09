@@ -1,4 +1,4 @@
-#Data Structures for Python Tutorial with Jupyter Notebook
+# Data Structures for Python Tutorial with Jupyter Notebook
 from math import sqrt
 
 s = 'hello'

@@ -18,3 +18,6 @@ def sumToN(n):
 def sumToN2(n):
   return (n*(n+1))/2
 
+# O(1) - Constant
+# log(n) - Logarithmic
+# O(n) - Linear

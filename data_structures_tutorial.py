@@ -5,7 +5,7 @@ s = 'hello'
 s.upper()
 # To see a list of methods available, press tab after the . 
 
-#Big O Notation
+#Big O Notation - Describes how quickly runtime will grow relative to the size of the input
 def sumToN(n):
   '''
   Take an input of n and return the sum of the numbers from 0 to n

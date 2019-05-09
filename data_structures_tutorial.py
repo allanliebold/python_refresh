@@ -21,3 +21,6 @@ def sumToN2(n):
 # O(1) - Constant
 # log(n) - Logarithmic
 # O(n) - Linear
+
+def func_constant(values):
+  print values[0]

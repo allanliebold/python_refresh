@@ -28,3 +28,5 @@ def func_constant(values):
 
 func_constant([1,2,3])
 # 1
+
+# O(n)

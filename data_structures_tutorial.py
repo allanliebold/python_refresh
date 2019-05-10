@@ -30,3 +30,5 @@ func_constant([1,2,3])
 # 1
 
 # O(n)
+def func_lin(lst):
+  

@@ -32,4 +32,4 @@ func_constant([1,2,3])
 # O(n)
 def func_lin(lst):
   for val in lst:
-    
+    print val

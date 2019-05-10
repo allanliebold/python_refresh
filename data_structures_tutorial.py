@@ -27,3 +27,4 @@ def func_constant(values):
   print values[0]
 
 func_constant([1,2,3])
+# 1

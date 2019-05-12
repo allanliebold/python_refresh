@@ -1,4 +1,5 @@
 """XML to CSV Scraper."""
+
 import sys, csv
 from xml.etree import ElementTree
 

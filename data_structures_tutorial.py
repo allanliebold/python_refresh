@@ -7,8 +7,7 @@ s.upper()
 
 #Big O Notation - Describes how quickly runtime will grow relative to the size of the input
 def sumToN(n):
-  '''
-  Take an input of n and return the sum of the numbers from 0 to n
+  ''' Take an input of n and return the sum of the numbers from 0 to n
   '''
   sum = 0
   for x in range(n+1):

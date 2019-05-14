@@ -12,4 +12,5 @@ periods = [pt.get_text() for pt in period_tags]
 
 short_descs = [sd.get_text() for sd in seven_day.select(".tombstone-container .short-desc")]
 temps = [t.get_text() for t in seven_day.select(".tombstone-container .temp")]
+
 descs = [d["title"] for d in seven_day.select("tombstone-container .desc")]

@@ -32,6 +32,7 @@ func_constant([1,2,3])
 # 1
 # Constant. Regardless of n number of inputs, the function always takes returns 1 
 # O(n)
+func_constant([4,5,6])
 
 def func_lin(lst):
   for val in lst:

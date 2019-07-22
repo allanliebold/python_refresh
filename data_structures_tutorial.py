@@ -14,7 +14,8 @@ def sumToN(n):
   return sum
 
 def sumToN(n):
-
+  sum = 0
+  
 def sumToN2(n):
   return (n*(n+1))/2
 

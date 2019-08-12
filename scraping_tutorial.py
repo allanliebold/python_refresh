@@ -14,3 +14,4 @@ short_descs = [sd.get_text() for sd in seven_day.select(".tombstone-container .s
 temps = [t.get_text() for t in seven_day.select(".tombstone-container .temp")]
 
 descs = [d["title"] for d in seven_day.select("tombstone-container .desc")]
+descs = [d["text"]]

@@ -32,3 +32,5 @@ def func_lin(lst):
   for val in lst:
     print val
 # Linear. A list of n values will print n values
+
+def func_lin(lst):

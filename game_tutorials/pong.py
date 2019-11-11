@@ -9,6 +9,7 @@ win.tracer(0)
 # Paddle A
 paddle_a = turtle.Turtle()
 paddle_a.speed(0)
+paddle_a.shape("square")
 
 # Paddle B
 

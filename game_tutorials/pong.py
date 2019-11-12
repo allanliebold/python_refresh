@@ -16,6 +16,7 @@ paddle_a.penup()
 paddle_a.goto(-350, 0)
 
 # Paddle B
+paddle_b = turtle.Turtle()
 
 # Ball
 
